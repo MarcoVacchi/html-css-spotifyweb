@@ -15,7 +15,6 @@ body {
 }
 
 .container-main {
-    background-color: red;
     display: flex;
 }
 
@@ -27,7 +26,6 @@ body {
     flex-direction: column;
     color: #5c5c5c;  
     max-width: 455px;
-    margin-bottom: 20px;
 }
 
 .container-col-left-margin {
@@ -55,6 +53,7 @@ body {
     margin-right: 20px;
     margin-bottom: 15px;
     font-size: 40px;
+    vertical-align: middle;
 }
 
 .fa-magnifying-glass {
@@ -87,8 +86,18 @@ body {
     margin-bottom: 20px;
 }
 
+.fa-circle-arrow-down {
 
+}
 
+.line {
+    margin-bottom: 15px;
+}
+
+.user {
+    color: white;
+    font-size: 25px;
+}
 
 
 
