@@ -1,0 +1,55 @@
+
+/*Reset*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #151922;
+}
+
+.container-main {
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    display: flex;
+}
+
+.col-left {
+    width: 200px;
+    height: 300px;
+    background-color: violet;
+}
+
+.col-right {
+    width: 200px;
+    height: 200px;
+
+}
+
+/*Reset*/
+
+
+
+/*Reset*/
+
+
+/*Reset*/
+
+
+
+/*Reset*/
+
+
+/*Reset*/
+
+
+
+/*Reset*/
+
+
+
+/*Reset*/
