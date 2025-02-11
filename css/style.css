@@ -166,6 +166,10 @@ footer {
         display: block;
         margin: 0 auto;
     }
+
+    .img-list-item:hover {
+        border-left: 2px solid green;
+    }
       
     .list-items {
         margin-bottom: 330px;
