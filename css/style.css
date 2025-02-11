@@ -150,6 +150,7 @@ footer {
     .item-none {
         display: none;
     }
+    
 
     body {
         max-width: 680px;
@@ -161,11 +162,14 @@ footer {
 
     .img-list-item {
         width: 35px;
-        height: 30px;
+        height: 40px;
+        display: block;
+        margin: 0 auto;
     }
-
+      
     .list-items {
         margin-bottom: 330px;
+
     }
 
     .col-right {
