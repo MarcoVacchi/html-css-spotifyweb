@@ -30,11 +30,14 @@ body {
     margin-bottom: 20px;
 }
 
+.container-col-left-margin {
+    margin-left: 20px;
+}
+
 
 #logo-grande {
     width: 360px;
     height: 160px;
-    margin-left: 20px;
     margin-right: 20px;
 }
 
@@ -44,7 +47,6 @@ body {
 
 .list-items {
     margin-bottom: 20px;
-    margin-left: 20px;
     list-style-type: none;
     margin-bottom: 50px;
 }
@@ -58,6 +60,38 @@ body {
 .fa-magnifying-glass {
     margin-right: 22px;
 }
+
+.container-main h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+.btn-add {
+    width: 85px;
+    height: 85px;
+    margin-bottom: 25px;
+}
+
+.fa-plus {
+    margin: 0 auto;
+}
+
+.playlist-items {
+    list-style-type: none;
+    margin-bottom: 200px;
+   
+}
+
+.name-playlist {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
 /*colonna di destra*/
 
 .col-right {
