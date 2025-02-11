@@ -38,12 +38,26 @@ body {
     margin-right: 20px;
 }
 
+#logo-piccolo {
+    display: none;
+}
+
 .list-items {
     margin-bottom: 20px;
     margin-left: 20px;
     list-style-type: none;
+    margin-bottom: 50px;
 }
 
+.fa-solid {
+    margin-right: 20px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.fa-magnifying-glass {
+    margin-right: 22px;
+}
 /*colonna di destra*/
 
 .col-right {
@@ -56,6 +70,43 @@ footer {
     background-color: #282828;
     height: 170px;
 }
+
+
+
+/*Fine Codice CSS*/
+
+/*Inizio Query*/
+
+/*Misura telefono*/
+
+@media screen and (max-width: 478px){
+    .col-left {
+        max-width: 55px;
+    }
+
+    #logo-grande {
+        display: none;
+    }
+
+    #logo-piccolo {
+        display: inline-block;
+    }
+
+}
+
+/*Misura telefono*/
+
+
+/*Misura tablet*/
+
+@media screen and (max-width: 478px;){
+
+}
+
+/*Misura tablet*/
+
+
+
 
 /*Reset*/
 
