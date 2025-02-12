@@ -7,7 +7,8 @@
     <title>Spotify</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,134 +21,158 @@
 
     <main class="container-main">
 
-        
-            <div class="col-left">
-                <div class="col-left-margin">
-                    <img src="img/logo.svg" alt="logo-grande" id="logo-grande">
-                    <img src="img/logo-small.svg" alt="logo-piccolo" id="logo-piccolo">
-                    <ul class="list-items">
-                        <li><img src="img/home.svg" alt="img-home" class="img-list-item"><span
-                                class="item-none">Home</span></li>
-                        <li><img src="img/search.svg" alt="img-find" class="img-list-item"><span
-                                class="item-none">Cerca</span></li>
-                        <li><img src="img/libreria.svg" alt="img-library" class="img-list-item"><span
-                                class="item-none">La tua libreria</span></li>
-                    </ul>
 
-                    <div class="container-playlist">
-                        <h3>PLAYLISTS</h3>
-                        <button class="btn-add"><i class="fa-solid fa-plus"></i></button>
-                        <span>Crea Playlist</span>
-                        <ul class="playlist-items">
-                            <li class="name-playlist">Nome Playlist</li>
-                            <li class="name-playlist">Nome Playlist</li>
-                            <li class="name-playlist">Nome Playlist</li>
-                            <li class="name-playlist">Nome Playlist</li>
-                            <li class="name-playlist">Nome Playlist</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="m-auto">
-                        <img src="img/download.svg" alt="arrow-down" class="img-list-item"><span class="item-none">Installa
-                            App</span>
-                        <hr class="line item-none">
-                        <img src="img/profile.svg" alt="user" class="img-list-item"><span class="user"><strong><span
-                                class="item-none">Marco Vacchi</strong></span>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="col-right">
-                <div class="header-page">
-                    <button class="btn-top"><span class="span-btn">EFFETTUA L'UPGRADE</span></button>
-                </div>  
-        
-                <ul class="content">
-                    <a href="#"><li>IN EVIDENZA</li></a>
-                    <a href="#"><li>PODCAST</li></a>
-                    <a href="#"><li>CLASSIFICHE</li></a>
-                    <a href="#"><li>GENERE E MOOD</li></a>
-                    <a href="#"><li>NUOVE USCITE</li></a>
-                    <a href="#"><li>SCOPRI</li></a>
+        <div class="col-left">
+            <div class="col-left-margin">
+                <img src="img/logo.svg" alt="logo-grande" id="logo-grande">
+                <img src="img/logo-small.svg" alt="logo-piccolo" id="logo-piccolo">
+                <ul class="list-items">
+                    <li><img src="img/home.svg" alt="img-home" class="img-list-item"><span class="item-none">Home</span>
+                    </li>
+                    <li><img src="img/search.svg" alt="img-find" class="img-list-item"><span
+                            class="item-none">Cerca</span></li>
+                    <li><img src="img/libreria.svg" alt="img-library" class="img-list-item"><span class="item-none">La
+                            tua libreria</span></li>
                 </ul>
 
-                <h2 class="name-playlist user container-col-left-margin"><strong>Recently played</strong></h2>
+                <!-- Playlist list -->
 
-                <div class="library-1 container-col-left-margin">
-                    
-                    <div class="library-img t-center">
-                        <img src="img/metal_lifting.jpg" alt="heavy-metal" id="foto-spoty">
-                        <div class="user">Heavy Metal</div>
-                        <p class="margin-top">Subtitle</p>
-                    </div>
-
-                    <div class="library-img t-center">
-                        <img src="img/stranger.jpeg" alt="stranger-things" id="foto-spoty">
-                        <div class="user">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</div>
-                        <p class="margin-top">Kyle Dixon & Michael Stein</p>
-                    </div>
-
-                    <div class="library-img t-center">
-                        <img src="img/aquietplace.jpeg" alt="quiet-place" id="foto-spoty">
-                        <div class="user">A quite place</div>
-                        <p class="margin-top">Subtitle</p>
-                    </div>
-
-                    <div class="library-img t-center">
-                        <img src="img/split.jpeg" alt="split" id="foto-spoty">
-                        <div class="user">Split</div>
-                        <p class="margin-top">Subtitle</p>
-                    </div>
-
-                    <div class="library-img t-center">
-                        <img src="img/cure.jpeg" alt="cure" id="foto-spoty">
-                        <div class="user">A cure for wellness</div>
-                        <p class="margin-top">Subtitle</p>
-                    </div>
-                    
-                    <div class="library-img t-center">
-                        <img src="img/sinister.jpeg" alt="sinister" id="foto-spoty">
-                        <div class="user">Sinister</div>
-                        <p class="margin-top">Subtitle</p>
-                    </div>
+                <div class="container-playlist">
+                    <h3>PLAYLISTS</h3>
+                    <button class="btn-add"><i class="fa-solid fa-plus"></i></button>
+                    <span>Crea Playlist</span>
+                    <ul class="playlist-items">
+                        <li class="name-playlist">Nome Playlist</li>
+                        <li class="name-playlist">Nome Playlist</li>
+                        <li class="name-playlist">Nome Playlist</li>
+                        <li class="name-playlist">Nome Playlist</li>
+                        <li class="name-playlist">Nome Playlist</li>
+                    </ul>
                 </div>
 
-                <h2 class="margin-top-library name-playlist user container-col-left-margin"><strong>Creato per John Doe</strong></h2>
-                <p class="margin-top container-col-left-margin name-playlist">Più ascolti, più accurati saranno i suggerimenti</p>
-                
-                <div class="library-2 container-col-left-margin">
-                    <div class="library-img-2">
-                        <img src="img/radar.jpeg" alt="radar" id="foto-spoty-2">
-                        <div class="user t-center">Release Radar</div>
-                    </div>
+                <!-- /Playlist list -->
 
-                    <div class="library-img-2">
-                        <img src="img/mixdaily.jpeg" alt="daily-mix" id="foto-spoty-2">
-                        <div class="user t-center">Daily Mix 1</div>
-                    </div>
+                <!-- Section user -->
+             
+                <div class="m-auto">
+                    <img src="img/download.svg" alt="arrow-down" class="img-list-item"><span class="item-none">Installa
+                        App</span>
+                    <hr class="line item-none">
+                    <img src="img/profile.svg" alt="user" class="img-list-item"><span class="user"><strong><span
+                                class="item-none">Marco Vacchi</strong></span>
                 </div>
 
-                <h2 class="margin-top-h2 name-playlist user container-col-left-margin"><strong>Artisti più popolari</strong></h2>
-                <p class="margin-top container-col-left-margin name-playlist">Più ascolti, più accurati saranno i suggerimenti</p>
-                
-                <div class="library-2 container-col-left-margin">
-                    <div class="library-img-2">
-                        <img src="img/player_left.jpg" alt="player" id="foto-spoty-2-circle">
-                        <div class="user t-center">hip-hop</div>
-                    </div>
-
-                    <div class="library-img-2">
-                        <img src="img/einaudi.jpeg" alt="einaudi" id="foto-spoty-2-circle">
-                        <div class="user t-center">einaudi</div>
-                    </div>
-                </div>
-
-
-               
-                
+                <!-- /Section user -->
             </div>
-            
+        </div>
+
+
+        <div class="col-right">
+            <div class="header-page">
+                <button class="btn-top"><span class="span-btn">EFFETTUA L'UPGRADE</span></button>
+            </div>
+
+            <ul class="content">
+                <a href="#">
+                    <li class="hover-text">IN EVIDENZA</li>
+                </a>
+                <a href="#">
+                    <li class="hover-text">PODCAST</li>
+                </a>
+                <a href="#">
+                    <li class="hover-text">CLASSIFICHE</li>
+                </a>
+                <a href="#">
+                    <li class="hover-text">GENERE E MOOD</li>
+                </a>
+                <a href="#">
+                    <li class="hover-text">NUOVE USCITE</li>
+                </a>
+                <a href="#">
+                    <li class="hover-text">SCOPRI</li>
+                </a>
+            </ul>
+
+            <h2 class="name-playlist user container-col-left-margin"><strong>Recently played</strong></h2>
+
+            <div class="library-1 container-col-left-margin">
+
+                <div class="library-img t-center">
+                    <img src="img/metal_lifting.jpg" alt="heavy-metal" id="foto-spoty">
+                    <div class="user">Heavy Metal</div>
+                    <p class="margin-top">Subtitle</p>
+                </div>
+
+                <div class="library-img t-center">
+                    <img src="img/stranger.jpeg" alt="stranger-things" id="foto-spoty">
+                    <div class="user">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</div>
+                    <p class="margin-top">Kyle Dixon & Michael Stein</p>
+                </div>
+
+                <div class="library-img t-center">
+                    <img src="img/aquietplace.jpeg" alt="quiet-place" id="foto-spoty">
+                    <div class="user">A quite place</div>
+                    <p class="margin-top">Subtitle</p>
+                </div>
+
+                <div class="library-img t-center">
+                    <img src="img/split.jpeg" alt="split" id="foto-spoty">
+                    <div class="user">Split</div>
+                    <p class="margin-top">Subtitle</p>
+                </div>
+
+                <div class="library-img t-center">
+                    <img src="img/cure.jpeg" alt="cure" id="foto-spoty">
+                    <div class="user">A cure for wellness</div>
+                    <p class="margin-top">Subtitle</p>
+                </div>
+
+                <div class="library-img t-center">
+                    <img src="img/sinister.jpeg" alt="sinister" id="foto-spoty">
+                    <div class="user">Sinister</div>
+                    <p class="margin-top">Subtitle</p>
+                </div>
+            </div>
+
+            <h2 class="margin-top-library name-playlist user container-col-left-margin"><strong>Creato per John
+                    Doe</strong></h2>
+            <p class="margin-top container-col-left-margin name-playlist">Più ascolti, più accurati saranno i
+                suggerimenti</p>
+
+            <div class="library-2 container-col-left-margin">
+                <div class="library-img-2">
+                    <img src="img/radar.jpeg" alt="radar" id="foto-spoty-2">
+                    <div class="user t-center">Release Radar</div>
+                </div>
+
+                <div class="library-img-2">
+                    <img src="img/mixdaily.jpeg" alt="daily-mix" id="foto-spoty-2">
+                    <div class="user t-center">Daily Mix 1</div>
+                </div>
+            </div>
+
+            <h2 class="margin-top-h2 name-playlist user container-col-left-margin"><strong>Artisti più popolari</strong>
+            </h2>
+            <p class="margin-top container-col-left-margin name-playlist">Più ascolti, più accurati saranno i
+                suggerimenti</p>
+
+            <div class="library-2 container-col-left-margin">
+                <div class="library-img-2">
+                    <img src="img/player_left.jpg" alt="player" id="foto-spoty-2-circle">
+                    <div class="user t-center">hip-hop</div>
+                </div>
+
+                <div class="library-img-2">
+                    <img src="img/einaudi.jpeg" alt="einaudi" id="foto-spoty-2-circle">
+                    <div class="user t-center">einaudi</div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
     </main>
 
 
