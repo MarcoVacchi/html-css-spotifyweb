@@ -325,6 +325,13 @@ footer {
     .margin-top-library {
         margin-top: 0;
     }
-
 }
     
+
+@media screen and (max-width: 576px){
+
+    .content {
+        gap: 20px;
+    }
+
+}
