@@ -128,6 +128,7 @@ body {
     width: 100%;
     color: #5c5c5c;
     overflow: auto;
+    margin-bottom: 20px;
 }
 
 .header-page {
@@ -170,7 +171,7 @@ a {
         display: flex;
         gap: 18px;
         justify-content: flex-start;
-        width: calc((100% - 36px) / 1);
+        width: 96%;
 }
 
 .library-img {
@@ -200,6 +201,9 @@ footer {
     margin-top: 140px;
 }
 
+.margin-top-h2 {
+    margin-top: 50px;
+}
 
 
 .library-2 {
@@ -289,3 +293,38 @@ footer {
         height: 90px;
     }
 }
+
+
+@media screen and (max-width: 768px){
+
+    .col-right {
+        max-width: 630px;
+    }
+
+    .library-1 {
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .library-img {
+        height: 180px;
+        width: 22%;
+        margin-bottom: 170px;
+    }
+
+    .content {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .library-img-2 {
+        height: 180px;
+        width: 25%;
+    }
+
+    .margin-top-library {
+        margin-top: 0;
+    }
+
+}
+    
