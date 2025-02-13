@@ -215,6 +215,7 @@ a {
 footer {
     background-color: #282828;
     height: 90px;
+    color: #7e7e7e;
 }
 
 .container-footer {
@@ -224,6 +225,8 @@ footer {
 
 .item-container-footer {
     display: flex;
+    padding: 20px;
+    gap: 10px;
 }
 
 .img-footer {
@@ -231,6 +234,16 @@ footer {
     height: 40px;
 }
 
+.container-icon-footer {
+    display: flex;
+    margin-left: 15px;
+}
+
+.icon-footer-sec-1 {
+    padding: 10px;
+    font-size: 16px;
+    
+}
 
 
 
