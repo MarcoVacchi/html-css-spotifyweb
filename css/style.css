@@ -228,7 +228,7 @@ a {
     display: flex;
     justify-content: space-between;
     height: 60px;
-    max-width: 90%;
+    width: 100%;
 }
 
 .item-container-footer {
@@ -259,10 +259,6 @@ a {
     padding: 20px;
 }
 
-.item-container-footer-mid {
-    margin-left: 140px;
-}
-
 .item-container-footer-mid .fa-regular {
     font-size: 30px;
 }
@@ -271,6 +267,10 @@ a {
 .container-footer-bottom {
     display: flex;
     justify-content: center;
+}
+
+.item-container-footer-bottom {
+    margin-right: 10px;
 }
 
 footer {
@@ -296,11 +296,12 @@ footer {
 }
 
 .volume-bar {
-    width: 430px;
+    width: 40%;
     height: 4px;
     background-color: #5a5a5a;
     border-radius: 5px;
     margin-top: 7px;
+    margin-right: 10px;
 }
 
 .volume-up {
@@ -319,8 +320,6 @@ footer {
 
 @media screen and (max-width: 768px){
 
-    
-
     .container-img {
         flex-wrap: wrap;
     }
@@ -330,14 +329,29 @@ footer {
         width: 21%;
      }
 
+     .volume-bar {
+        width: 30%;
+     }
 
+     .item-container-footer-mid {
+        width: 100%;
+     }
 
+     .img-items-2 {
+        width: calc((96% - 40px) / 4);
+     }
+
+     .item-container-footer-i {
+        color: white;
+        font-size: 20px;
+        padding: 15px 
+     }
     
 }
     
 /*Misura telefono s*/
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 639px){
 
     .content {
         gap: 20px;
@@ -353,13 +367,15 @@ footer {
         flex-direction: column;
     }
 
+    .img-items-2 {
+        width: calc((96% - 40px) / 1);
+    }
+
 }
 
 /*Misura telefono xs*/
 
-@media screen and (max-width: 480px){
-
-
+@media screen and (max-width: 552px){
 
     .col-left-margin {
         margin: auto;
@@ -404,5 +420,82 @@ footer {
         margin-bottom: 460px;
 
     }
+
+    .volume-bar {
+        width: 130px;
+    }
+
+    .img-footer {
+        width: 30px;
+        height: 30px;
+    }
+
+    .volume-bar-short {
+        width: 80px;
+    }
+
+    .icon-footer-sec-1 {
+        padding: 2px;
+    }
+
+    .container-icon-footer {
+        margin-left: 0px;
+    }
     
+
+    .item-container-footer-i {
+        padding: 5px;
+    }
+
+    .container-footer-bottom {
+        margin-left: 0px;
+    }
+
+    .container-footer-top {
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+        width: 100%;
+    }
+
+.item-container-footer-bottom {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    }
+
+    .item-container-footer-mid .fa-regular {
+        font-size: 21px;
+    }
 }
+
+
+@media screen and (max-width: 460px){
+
+    .item-container-footer-mid .fa-regular {
+        font-size: 20px;
+    }
+
+    .item-container-footer-i {
+            padding: 2px
+    }
+
+    .volume-bar-short {
+        width: 50px;
+    }
+
+    .item-container-footer-i {
+        padding: 1px;
+        margin-top: 10px;
+    }
+
+    .volume-bar {
+        width: 20%;
+    }
+
+    .container-icon-footer {
+        margin-left: 0px;
+        margin-right: 25px;
+    }
+}
+
