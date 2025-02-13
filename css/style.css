@@ -210,16 +210,11 @@ a {
     margin-top: 50px;
 }
 
-
-footer {
-    background-color: #282828;
-    height: 90px;
-    color: #7e7e7e;
-}
-
-.container-footer {
+.container-footer-top {
     display: flex;
     justify-content: space-between;
+    height: 60px;
+    max-width: 90%;
 }
 
 .item-container-footer {
@@ -253,6 +248,25 @@ footer {
 .item-container-footer-mid .fa-regular {
     font-size: 30px;
 }
+
+.sound-bar {
+    width: 30px;
+    height: 3px;
+    color: white;
+    display: inline-block;
+}
+
+.container-footer-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #282828;
+    height: 90px;
+    color: #7e7e7e;
+}
+
 
 
 
