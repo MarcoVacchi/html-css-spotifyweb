@@ -79,7 +79,6 @@ body {
 }
 
 .col-left .fa-solid {
-    margin-right: 20px;
     margin-bottom: 15px;
     font-size: 40px;
     vertical-align: middle;
@@ -251,6 +250,9 @@ footer {
     padding: 20px;
 }
 
+.item-container-footer-mid .fa-regular {
+    font-size: 30px;
+}
 
 
 
