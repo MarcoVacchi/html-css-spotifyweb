@@ -167,10 +167,10 @@ body {
     flex-wrap: wrap;
 }
 
-.hover-text:hover {
-    border-bottom: 1px solid green;
-    margin: 0;
+.hover-name:hover {
+    color: white;
 }
+
 
 a {
     text-decoration: none;
@@ -476,10 +476,6 @@ footer {
         font-size: 20px;
     }
 
-    .item-container-footer-i {
-            padding: 2px
-    }
-
     .volume-bar-short {
         width: 50px;
     }
@@ -496,6 +492,12 @@ footer {
     .container-icon-footer {
         margin-left: 0px;
         margin-right: 25px;
+    }
+
+    .item-container-footer {
+        padding: 10px;
+        gap: 10px;
+    
     }
 }
 
