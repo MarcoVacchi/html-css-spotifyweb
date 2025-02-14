@@ -336,8 +336,6 @@ footer {
 }
 
 .volume {
-    font-size: 20px;
-    color: white;
     margin-right: 10px;
 }
 
@@ -358,10 +356,7 @@ footer {
     border-radius: 5px;
     margin-top: 7px;
     margin-right: 10px;
-}
-
-.volume:hover {
-    background-color: greenyellow;
+    position: relative;
 }
 
 .volume-up {
@@ -370,6 +365,41 @@ footer {
     background-color: white;
     border-radius: 5px;
 }
+
+.point {
+    position: absolute;
+    left: 25%;
+    bottom: -6px;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.volume-bar:hover .point {
+    opacity: 1;
+}
+
+.volume-up:hover {
+    background-color: greenyellow;
+}
+
+.point-short {
+    position: absolute;
+    left: 25%;
+    bottom: -6px;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.volume-bar-short:hover .point-short {
+    opacity: 1;
+}
+
 
 
 /*Fine Codice CSS*/
