@@ -153,8 +153,16 @@ body {
     margin-top: 20px;
 }
 
+.btn-top:hover {
+    height: 50px;
+}
+
 .span-btn {
     padding: 50px;
+}
+
+.span-btn:hover {
+    padding: 60px;
 }
 
 .content {
@@ -302,6 +310,11 @@ a {
     padding: 20px;
 }
 
+.item-container-footer-mid .fa-regular:hover {
+    font-size: 33px;
+}
+
+
 .item-container-footer-mid .fa-regular {
     font-size: 30px;
 }
@@ -345,6 +358,10 @@ footer {
     border-radius: 5px;
     margin-top: 7px;
     margin-right: 10px;
+}
+
+.volume:hover {
+    background-color: greenyellow;
 }
 
 .volume-up {
@@ -518,6 +535,11 @@ footer {
     .item-container-footer-mid .fa-regular {
         font-size: 20px;
     }
+
+    .item-container-footer-mid .fa-regular:hover {
+        font-size: 22px;
+    }
+
 
     .volume-bar-short {
         width: 50px;
